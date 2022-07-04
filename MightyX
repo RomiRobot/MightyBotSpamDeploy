@@ -50,7 +50,7 @@ start_bot () {
 """
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    python3 -m MightyXBotSpam
+    python3 -m MightyXSpam
 }
 
 start_bot
