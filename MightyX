@@ -4,7 +4,7 @@
 _repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $SPAM_REPO == "FRIENDS_FOREVER_43" ]]
+    if [[ $SPAM_REPO == "MightyXBotSpam" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0JlaW5nTWlnaHR5L01pZ2h0eVhCb3RTcGFtL2FyY2hpdmUvTWlnaHR5LnppcA==" | base64 -d
     elif [[ $SPAM_REPO == "MightyXBotSpam" ]]
@@ -50,7 +50,7 @@ start_bot () {
 """
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    python3 -m FRIENDS_FOREVER_43
+    python3 -m MightyXBotSpam
 }
 
 start_bot
